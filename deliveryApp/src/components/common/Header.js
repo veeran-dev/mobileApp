@@ -27,6 +27,7 @@ export default class Header extends Component {
 const styles = StyleSheet.create({
   container: {
     minHeight: 60,
+    maxHeight: 80,
     justifyContent: 'center',
     paddingTop: 8,
     paddingRight: 16,

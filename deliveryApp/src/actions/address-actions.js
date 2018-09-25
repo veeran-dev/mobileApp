@@ -1,8 +1,8 @@
 import * as types from '../constant/action-types';
 
-export function loginUser(data){
+export function waterAddresses(data){
 	return {
-		type: types.LOGIN_USER,
+		type: types.WADDRESS,
 		payload: data
 	}
 }
@@ -10,13 +10,6 @@ export function loginUser(data){
 export function loading(data){
 	return {
 		type: types.LOADING,
-		payload: data
-	}
-}
-
-export function loginFailed(data){
-	return {
-		type: types.LOGIN_FAILED,
 		payload: data
 	}
 }
